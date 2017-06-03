@@ -15,7 +15,7 @@ if isempty(firstRun)
 end
 
 % constant 'a'
-alpha = 0.99;
+alpha = 0.8;
 
 xlpf = alpha * prevX + (1-alpha)*x;
 ylpf = alpha * prevY + (1-alpha)*y;
